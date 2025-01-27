@@ -1,0 +1,194 @@
+{
+    "tabs": [
+        {
+            "id": "informaciónGeneralTab",
+            "label": "Información General",
+            "cards": [
+                {
+                    "title": "Información General",
+                    "fields": [
+                        {
+                            "type": "select",
+                            "id": "medidas",
+                            "label": "Medidas",
+                            "options": [
+                                {
+                                    "value": "iniciales",
+                                    "text": "iniciales"
+                                },
+                                {
+                                    "value": "medias",
+                                    "text": "medias"
+                                },
+                                {
+                                    "value": "finales",
+                                    "text": "finales"
+                                }
+                            ],
+                            "visibility": [
+                                "admin",
+                                "doctor"
+                            ]
+                        },
+                        {
+                            "type": "input",
+                            "label": "Busto",
+                            "id": "busto",
+                            "visibility": [
+                                "admin",
+                                "doctor"
+                            ]
+                        },
+                        {
+                            "type": "input",
+                            "label": "Abdomen alto",
+                            "id": "abdomenAlto",
+                            "visibility": [
+                                "admin",
+                                "doctor"
+                            ]
+                        },
+                        {
+                            "type": "input",
+                            "label": "Cintura",
+                            "id": "cintura",
+                            "visibility": [
+                                "admin",
+                                "doctor"
+                            ]
+                        },
+                        {
+                            "type": "input",
+                            "label": "Cadera",
+                            "id": "cadera",
+                            "visibility": [
+                                "admin",
+                                "doctor"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Información General",
+                    "fields": [
+                        {
+                            "type": "input",
+                            "label": "Pierna Derecha",
+                            "id": "piernaDerecha",
+                            "visibility": [
+                                "admin",
+                                "doctor"
+                            ]
+                        },
+                        {
+                            "type": "input",
+                            "label": "Pierna Izquierda",
+                            "id": "piernaIzquierda",
+                            "visibility": [
+                                "admin",
+                                "doctor"
+                            ]
+                        },
+                        {
+                            "type": "input",
+                            "label": "Brazo Derecho",
+                            "id": "brazoDerecho",
+                            "visibility": [
+                                "admin",
+                                "doctor"
+                            ]
+                        },
+                        {
+                            "type": "input",
+                            "label": "Brazo Izquierdo",
+                            "id": "brazoIzquierdo",
+                            "visibility": [
+                                "admin",
+                                "doctor"
+                            ]
+                        },
+                        {
+                            "type": "input",
+                            "label": "Record Sesiones",
+                            "id": "recordSesiones",
+                            "visibility": [
+                                "admin",
+                                "doctor"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "procedimientosPlanestab",
+            "label": "Procedimientos Planes",
+            "cards": [
+                {
+                    "title": "Información Corporal",
+                    "fields": [
+                        {
+                            "type": "number",
+                            "id": "porcentajeGrasa",
+                            "label": "% Grasa Corporal"
+                        },
+                        {
+                            "type": "number",
+                            "id": "porcentajeMusculo",
+                            "label": "% Músculo Corporal"
+                        },
+                        {
+                            "type": "number",
+                            "id": "Grasa Viceral",
+                            "label": "Grasa Viceral"
+                        },
+                        {
+                            "type": "number",
+                            "id": "pesoKG",
+                            "label": "Peso Corporal (KG)"
+                        },
+                        {
+                            "type": "number",
+                            "id": "Altura (CM)",
+                            "label": "Altura (CM)"
+                        },
+                        {
+                            "type": "number",
+                            "id": "IMC",
+                            "label": "Indice de Masa Corporal (IMC)"
+                        },
+                        {
+                            "type": "number",
+                            "id": "Composición Corporal",
+                            "label": "Composición Corporal"
+                        }
+
+                    ]
+                },
+                {
+                    "title": "Procedimientos Planes",
+                    "fields": [
+                        {
+                            "type": "textarea",
+                            "id": "procedimientos",
+                            "label": "Procedimientos",
+                            "rows": 3
+                        },
+                        {
+                            "type": "textarea",
+                            "id": "planAtencion",
+                            "label": "Plan de Atención",
+                            "rows": 3
+                        },
+                        {
+                            "type": "textarea",
+                            "id": "observaciones",
+                            "label": "Observaciones",
+                            "rows": 3
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

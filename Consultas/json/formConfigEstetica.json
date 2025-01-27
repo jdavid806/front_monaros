@@ -1,0 +1,118 @@
+{
+  "tabs": [
+    {
+      "id": "signosVitalesTab",
+      "label": "Signos Vitales y medidas",
+      "cards": [
+        {
+          "title": "Signos Vitales",
+          "fields": [
+            {
+              "type": "number",
+              "id": "temperatura",
+              "label": "Temperatura corporal",
+              "readonly": false
+            },
+            {
+              "type": "number",
+              "id": "saturacion",
+              "label": "Saturación de oxígeno",
+              "readonly": false
+            }
+          ]
+        },
+        {
+          "title": "Medidas Antropométricas",
+          "fields": [
+            {
+              "type": "number",
+              "id": "pesoCorporal",
+              "label": "Peso Corporal (KG)",
+              "readonly": false
+            },
+            {
+              "type": "number",
+              "id": "altura",
+              "label": "Altura (CM)",
+              "readonly": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "examenFisicoTab",
+      "label": "Examen Físico",
+      "cards": [
+        {
+          "title": "Cabecera",
+          "fields": [
+            {
+              "type": "text",
+              "id": "cabezaEstado",
+              "label": "Estado de la cabeza",
+              "readonly": false
+            },
+            {
+              "type": "text",
+              "id": "cuelloEstado",
+              "label": "Estado del cuello",
+              "readonly": false
+            }
+          ]
+        },
+        {
+          "title": "Extremidades",
+          "fields": [
+            {
+              "type": "text",
+              "id": "extremidadesEstado",
+              "label": "Estado de las extremidades",
+              "readonly": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "signosVitalesTab",
+      "label": "Signos Vitales y sadsaadssad",
+      "cards": [
+        {
+          "title": "Signos Vitales",
+          "fields": [
+            {
+              "type": "number",
+              "id": "temperatura",
+              "label": "Temperatura corporal",
+              "readonly": false
+            },
+            {
+              "type": "number",
+              "id": "saturacion",
+              "label": "Saturación de oxígeno",
+              "readonly": false
+            }
+          ]
+        },
+        {
+          "title": "Medidas Antropométricas",
+          "fields": [
+            {
+              "type": "number",
+              "id": "pesoCorporal",
+              "label": "Peso Corporal (KG)",
+              "readonly": false
+            },
+            {
+              "type": "number",
+              "id": "altura",
+              "label": "Altura (CM)",
+              "readonly": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "tabs": [
+    {
+      "id": "informacionGeneralTab",
+      "label": "Información General",
+      "cards": [
+        {
+          "title": "Tipo de Pie",
+          "fields": [
+            {
+              "type": "select",
+              "id": "tipoPie",
+              "label": "Tipo de Pie",
+              "options": [
+                { "value": "germanico", "text": "Germánico" },
+                { "value": "romano", "text": "Romano" },
+                { "value": "griego", "text": "Griego" },
+                { "value": "egipcio", "text": "Egipcio" },
+                { "value": "celta", "text": "Celta" }
+              ],
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        },
+        {
+          "title": "Tipo Planta de Pie",
+          "fields": [
+            {
+              "type": "select",
+              "id": "tipoPlantaPie",
+              "label": "Tipo Planta de Pie",
+              "options": [
+                { "value": "plano", "text": "Plano" },
+                { "value": "normal", "text": "Normal" },
+                { "value": "cavo", "text": "Cavo" }
+              ],
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "patologiaTab",
+      "label": "Patología",
+      "cards": [
+        {
+          "title": "Bromhidrosis, Hiperhidrosis y Anhidrosis",
+          "fields": [
+            {
+              "type": "select",
+              "id": "bromhidrosis",
+              "label": "Bromhidrosis",
+              "options": [
+                { "value": "si", "text": "Sí" },
+                { "value": "no", "text": "No" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "hiperhidrosis",
+              "label": "Hiperhidrosis",
+              "options": [
+                { "value": "si", "text": "Sí" },
+                { "value": "no", "text": "No" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "anhidrosis",
+              "label": "Anhidrosis",
+              "options": [
+                { "value": "si", "text": "Sí" },
+                { "value": "no", "text": "No" }
+              ],
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        },
+        {
+          "title": "Observaciones Patología",
+          "fields": [
+            {
+              "type": "text",
+              "id": "observacionesBromhidrosis",
+              "label": "Observaciones Bromhidrosis",
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "text",
+              "id": "observacionesHiperhidrosis",
+              "label": "Observaciones Hiperhidrosis",
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "text",
+              "id": "observacionesAnhidrosis",
+              "label": "Observaciones Anhidrosis",
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valoracionPiePiernaTab",
+      "label": "Valoración pies",
+      "cards": [
+        {
+          "title": "Valoraciones Pie Izquierdo",
+          "fields": [
+            {
+              "type": "select",
+              "id": "edemaPI",
+              "label": "Edema",
+              "options": [
+                { "value": "si", "text": "Sí" },
+                { "value": "no", "text": "No" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "varicesPI",
+              "label": "Varices",
+              "options": [
+                { "value": "si", "text": "Sí" },
+                { "value": "no", "text": "No" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "resequedadPI",
+              "label": "Resequedad",
+              "options": [
+                { "value": "si", "text": "Sí" },
+                { "value": "no", "text": "No" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "dermatomicosis",
+              "label": "Dermatomicosis",
+              "options": [
+                { "value": "si", "text": "Sí" },
+                { "value": "no", "text": "No" }
+              ],
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        },
+        {
+          "title": "Valoraciones Pie Derecho",
+          "fields": [
+            {
+              "type": "select",
+              "id": "edemaPD",
+              "label": "Edema",
+              "options": [
+                { "value": "si", "text": "Sí" },
+                { "value": "no", "text": "No" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "varicesPD",
+              "label": "Varices",
+              "options": [
+                { "value": "si", "text": "Sí" },
+                { "value": "no", "text": "No" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "resequedadPD",
+              "label": "Resequedad",
+              "options": [
+                { "value": "si", "text": "Sí" },
+                { "value": "no", "text": "No" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "dermatomicosisPD",
+              "label": "Dermatomicosis",
+              "options": [
+                { "value": "si", "text": "Sí" },
+                { "value": "no", "text": "No" }
+              ],
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hiperqueratosisTab",
+      "label": "Hiperqueratosis",
+      "cards": [
+        {
+          "title": "Helomas Izquierdo",
+          "fields": [
+            {
+              "type": "select",
+              "id": "interfalangicoDorsalPI",
+              "label": "Interfalángico Dorsal",
+              "options": [
+                { "value": "No", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "interdigitalesPI",
+              "label": "Interdigitales",
+              "options": [
+                { "value": "No", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "dorsalQuintoDedoPI",
+              "label": "Dorsal Quinto Dedo",
+              "options": [
+                { "value": "No", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "textarea",
+              "id": "observacionesPI",
+              "label": "Observaciones Pie Izquierdo",
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        },
+        {
+          "title": "Helomas Derecho",
+          "fields": [
+            {
+              "type": "select",
+              "id": "interfalangicoDorsalPD",
+              "label": "Interfalángico Dorsal",
+              "options": [
+                { "value": "No", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "interdigitalesPD",
+              "label": "Interdigitales",
+              "options": [
+                { "value": "No", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "dorsalQuintoDedoPD",
+              "label": "Dorsal Quinto Dedo",
+              "options": [
+                { "value": "No", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "textarea",
+              "id": "observacionesPD",
+              "label": "Observaciones Pie Derecho",
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AlteracionesDigitalesTab",
+      "label": "Alteraciones Digitales",
+      "cards": [
+        {
+          "title": "Hallux Valgus",
+          "fields": [
+            {
+              "type": "textarea",
+              "id": "halluxDerecho",
+              "label": "Dedo derecho",
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "textarea",
+              "id": "halluxIzquierdo",
+              "label": "Dedo izquierdo",
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "valoracionHalluxDerecho",
+              "label": "Hallux dedo Derecho",
+              "options": [
+                { "value": "No", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "valoracionHalluxIzquierdo",
+              "label": "Hallux Dedo Izquierdo",
+              "options": [
+                { "value": "No", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        },
+        {
+          "title": "Quinto de Varo",
+          "fields": [
+            {
+              "type": "textarea",
+              "id": "quintoVaroDerecho",
+              "label": "Dedo derecho",
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "textarea",
+              "id": "halluxIzquierdo",
+              "label": "Dedo izquierdo",
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "valoracionQuintoDerecho",
+              "label": "Quinto de Varo dedo Derecho",
+              "options": [
+                { "value": "No", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "valoracionQuintoIzquierdo",
+              "label": "Quinto de Varo Izquierdo",
+              "options": [
+                { "value": "No", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onicopatiasTab",
+      "label": "Onicopatias",
+      "cards": [
+        {
+          "title": "Pie derecho",
+          "fields": [
+            {
+              "type": "select",
+              "id": "anoniquiaDerecho",
+              "label": "Anoniquia",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "microniquiaDerecho",
+              "label": "Microniquia",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "onicolisisDerecho",
+              "label": "Onicolisis",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "onicauxisDerecho",
+              "label": "Onicauxis",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "onicocriptosisDerecho",
+              "label": "Onicocriptosis",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "onicogriptosisDerecho",
+              "label": "Onicogriptosis",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ]
+            },
+            {
+              "type": "select",
+              "id": "onicofosisDerecho",
+              "label": "Onicofosis",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ]
+            },
+            {
+              "type": "select",
+              "id": "paquioniquiaDerecho",
+              "label": "Paquioniquia",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ]
+            },
+            {
+              "type": "select",
+              "id": "onicomicosisDerecho",
+              "label": "Onicomicosis",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pie Izquiero",
+          "fields": [
+            {
+              "type": "select",
+              "id": "anoniquiaIzquierdo",
+              "label": "Anoniquia",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "microniquiaIzquierdo",
+              "label": "Microniquia",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "onicolisisIzquierdo",
+              "label": "Onicolisis",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "onicauxisizquierdo",
+              "label": "Onicauxis",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "onicocriptosisIzquierdo",
+              "label": "Onicocriptosis",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "onicogriptosisIzquierdo",
+              "label": "Onicogriptosis",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ]
+            },
+            {
+              "type": "select",
+              "id": "onicofosisIzquierdo",
+              "label": "Onicofosis",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ]
+            },
+            {
+              "type": "select",
+              "id": "paquioniquiaIzquierdo",
+              "label": "Paquioniquia",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ]
+            },
+            {
+              "type": "select",
+              "id": "onicomicosisIzquierdo",
+              "label": "Onicomicosis",
+              "options": [
+                { "value": "no", "text": "No" },
+                { "value": "1", "text": "1" },
+                { "value": "2", "text": "2" },
+                { "value": "3", "text": "3" },
+                { "value": "4", "text": "4" },
+                { "value": "5", "text": "5" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "observacionesTab",
+      "label": "Observaciones Finales",
+      "cards": [
+        {
+          "title": "Observaciones",
+          "fields": [
+            {
+              "type": "textarea",
+              "id": "tratamiento",
+              "label": "Tratamiento",
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "textarea",
+              "id": "indicaciones",
+              "label": "Indicaciones",
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "textarea",
+              "id": "tratamiento",
+              "label": "Tratamiento",
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

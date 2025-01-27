@@ -1,0 +1,94 @@
+{
+  "tabs": [
+    {
+      "id": "informacionGeneralTab",
+      "label": "Información del Acompañante/acudiente",
+      "cards": [
+        {
+          "title": "información General",
+          "fields": [
+            {
+              "type": "input",
+              "id": "nombre",
+              "label": "Nombre",
+              "placeholder": "Nombre del acompañante/acudiente",
+              "required": true,
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "input",
+              "id": "parentesco",
+              "label": "Parentesco",
+              "placeholder": "Parentesco",
+              "required": true,
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "input",
+              "id": "institucion",
+              "label": "Intitución que remite",
+              "placeholder": "Eps",
+              "required": false,
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        },
+        {
+          "title": "Información de Consulta",
+          "fields": [
+            {
+              "type": "input",
+              "id": "nombreConsulta",
+              "label": "Nombre de la Consulta",
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "select",
+              "id": "tipoConsulta",
+              "label": "tipo de Consulta",
+              "options": [
+                { "value": "primeraVez", "text": "Primera Vez" },
+                { "value": "control", "text": "Control" },
+                { "value": "otro", "text": "Otro" }
+              ],
+              "visibility": ["admin", "doctor"]
+            },
+            {
+              "type": "input",
+              "id": "motivoConsulta",
+              "label": "Motivo de Consulta",
+              "placeholder": "Motivo de Consulta",
+              "required": true,
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antecendentesTab",
+      "label": "Antecedentes",
+      "cards": [
+        {
+          "title": "Personales",
+          "fields": [
+            {
+              "type": "select",
+              "id": "esferasAfectadas",
+              "label": "Esferas Afectadas",
+              "options": [
+                { "value": "salud", "text": "Salud" },
+                { "value": "metafisico", "text": "Metafísico" },
+                { "value": "social", "text": "Social" },
+                { "value": "deporte", "text": "Deporte" },
+                { "value": "laboral", "text": "Laboral" },
+                { "value": "afectivoSexual", "text": "Afectivo Sexual" }
+              ],
+              "visibility": ["admin", "doctor"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

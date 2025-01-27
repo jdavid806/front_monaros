@@ -1,0 +1,536 @@
+{
+  "tabs": [
+    {
+      "id": "informacionGeneralTab",
+      "label": "Información General",
+      "cards": [
+        {
+          "title": "Antencedetentes",
+          "fields": [
+            {
+              "type": "select",
+              "label": "Motivo de consulta",
+              "id": "motivoConsulta",
+              "options": [
+                {
+                  "value": "ortodoncia",
+                  "text": "ortodoncia"
+                },
+                {
+                  "value": "odontologiaGeneral",
+                  "text": "odontologia General"
+                },
+                {
+                  "value": "DiseñoSonrisa",
+                  "text": "Diseño Sonrisa"
+                },
+                {
+                  "value": "blanqueamiento",
+                  "text": "blanqueamiento"
+                },
+                {
+                  "value": "endodoncia",
+                  "text": "endodoncia"
+                },
+                {
+                  "value": "implantes",
+                  "text": "implantes"
+                }
+              ],
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "textarea",
+              "label": "Antencedentes",
+              "id": "antecedentes",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Información General",
+          "fields": [
+            {
+              "type": "input",
+              "label": "Tratamiento médico",
+              "id": "tratamientoMedico",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Problemas de Coagulación",
+              "id": "problemasCoagulacion",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Reacciones alérgicas",
+              "id": "reaccionesAlergicas",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Irradiaciones",
+              "id": "irradiaciones",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Sinusitis",
+              "id": "sinusitis",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Trastornos de la Presión Arterial",
+              "id": "trastornosPresionArterial",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Cardiopatías",
+              "id": "cardiopatias",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Diabetes",
+              "id": "diabetes",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Hepatitis",
+              "id": "hepatitis",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Trastornos Emocionales",
+              "id": "trastornosEmocionales",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Otras Enfermedades",
+              "id": "otrasEnfermedades",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "examenClinicoTab",
+      "label": "Exámen Clínico",
+      "cards": [
+        {
+          "title": "Examen Clínico",
+          "fields": [
+            {
+              "type": "input",
+              "label": "Simetría Facial",
+              "id": "simetriaFacial",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Musculatura",
+              "id": "musculatura",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "ATM",
+              "id": "atm",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Apertura/cierre",
+              "id": "aperturaCierre",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Sonrisa",
+              "id": "sonrisa",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Arcada Maxilar",
+              "id": "arcadaMaxilar",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Arcada Mandíbula",
+              "id": "dentadura",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Mordida",
+              "id": "mordida",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examen Físico",
+          "fields": [
+            {
+              "type": "input",
+              "label": "Alteraciones estomatologicas",
+              "id": "alteracionesEstomatologicas",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Alteraciones dentales",
+              "id": "alteracionesDentales",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Alteraciones periodontales",
+              "id": "ateracionaesPeriodontales",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Alteraciones de la boca",
+              "id": "alteracionesBoca",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Alteraciones pulpares",
+              "id": "alteracionesPulpares",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "ATM Oclusión",
+              "id": "atmOclusion",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Alteraciones de la boca",
+              "id": "alteracionesBoca",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Perfil",
+              "id": "perfil",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "relacionesHabitosTab",
+      "label": "Relaciones y Habitos",
+      "cards": [
+        {
+          "title": "Relaciones",
+          "fields": [
+            {
+              "type": "input",
+              "label": "Relacion Molar Derecha",
+              "id": "relacionMolarDerecha",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Relacion Molar Izquierda",
+              "id": "relacionMolarIzquierda",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Relacion Canina Derecha",
+              "id": "relacionCaninaDerecha",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Relacion Canina Izquierda",
+              "id": "relacionCaninaIzquierda",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Linea media Derecha",
+              "id": "lineaMediaDerecha",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "input",
+              "label": "Linea media Izquierda",
+              "id": "lineaMediaIzquierda",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Habitos",
+          "fields": [
+            {
+              "type": "input",
+              "label": "Hábitos orales nocivos",
+              "id": "habitosOralesNocivos",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "select",
+              "label": "Regularidad del cepillado por día",
+              "id": "regularidadCepillado",
+              "options": [
+                {
+                  "value": "1",
+                  "text": "1 vez"
+                },
+                {
+                  "value": "2",
+                  "text": "2 veces"
+                },
+                {
+                  "value": "3",
+                  "text": "3 veces"
+                },
+                {
+                  "value": "mas",
+                  "text": "4 veces o más"
+                }
+              ],
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "select",
+              "label": "Uso de enjuague bucal",
+              "id": "usoEnjuagueBucal",
+              "options": [
+                {
+                  "value": "si",
+                  "text": "Sí"
+                },
+                {
+                  "value": "no",
+                  "text": "No"
+                }
+              ],
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "select",
+              "label": "fuma",
+              "id": "fuma",
+              "options": [
+                {
+                  "value": "si",
+                  "text": "Sí"
+                },
+                {
+                  "value": "no",
+                  "text": "No"
+                }
+              ],
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            },
+            {
+              "type": "select",
+              "label": "Uso de Sede Dental",
+              "id": "usoSedaDental",
+              "options": [
+                {
+                  "value": "si",
+                  "text": "Sí"
+                },
+                {
+                  "value": "no",
+                  "text": "No"
+                }
+              ],
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "hábitos Orales",
+          "fields": [
+            {
+              "type": "textarea",
+              "id": "habitosOrales",
+              "label": "Hábitos Orales",
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DiagonosticoTab",
+      "label": "Diagnóstico y Tratamientos",
+      "cards": [
+        {
+          "title": "Diagnóstico",
+          "fields": [
+            {
+              "type": "textarea",
+              "id": "diagnostico",
+              "label": "Diagnóstico",
+              "rows": 3,
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tratamientos",
+          "fields": [
+            {
+              "type": "textarea",
+              "id": "tratamientos",
+              "label": "Tratamientos",
+              "rows": 3,
+              "visibility": [
+                "admin",
+                "doctor"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
